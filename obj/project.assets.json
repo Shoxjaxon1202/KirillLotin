@@ -8,25 +8,32 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\sazod\\.nuget\\packages\\": {}
+    "C:\\Users\\Hp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sazod\\dev\\dotnet\\KirillLotin\\KirillLotin.csproj",
+      "projectUniqueName": "D:\\dotnet\\gitDavomi\\KirillLotin\\KirillLotin.csproj",
       "projectName": "KirillLotin",
-      "projectPath": "C:\\Users\\sazod\\dev\\dotnet\\KirillLotin\\KirillLotin.csproj",
-      "packagesPath": "C:\\Users\\sazod\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sazod\\dev\\dotnet\\KirillLotin\\obj\\",
+      "projectPath": "D:\\dotnet\\gitDavomi\\KirillLotin\\KirillLotin.csproj",
+      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
+      "outputPath": "D:\\dotnet\\gitDavomi\\KirillLotin\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\sazod\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -39,11 +46,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -65,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
